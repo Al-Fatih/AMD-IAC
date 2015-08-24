@@ -9,7 +9,7 @@
     <meta name="author" content="">
     <link rel="icon" href="<?php echo base_url()?>favicon.ico">
 
-    <title>Official Seminar Website Aplication for Beginner</title>
+    <title>Islamic Apps Contest</title>
 
     <!-- Bootstrap core CSS -->
     <link href="<?php echo base_url()?>css/bootstrap.min.css" rel="stylesheet">
@@ -43,7 +43,7 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href="<?php echo base_url()?>">Website Aplication for Beginner</a>
+            <a class="navbar-brand" href="<?php echo base_url()?>">Islamic Apps Contest</a>
         </div>
         <div id="navbar" class="navbar-collapse collapse">
             <ul class="nav navbar-nav">
@@ -51,6 +51,7 @@
                 <li><a href="<?php echo base_url()?>index.php/seminar/testimoni">Testimoni</a></li>
                 <li><a href="<?php echo base_url()?>index.php/seminar/about">About</a></li>
 				<li><a href="<?php echo base_url()?>index.php/seminar/daftar">Daftar</a></li>
+                <li><a href="<?php echo base_url()?>index.php/seminar/masuk">Login</a></li>
             </ul>
         </div>
         <!--/.nav-collapse -->
@@ -59,11 +60,11 @@
 
 <div class="container">
 	<div class="alert alert-info" role="alert">
-        <strong>Assalamualalikum!</strong> Selamat Datang di Website Pendaftaran Seminar Website Aplication for Beginner
+        <strong>Assalamualalikum!</strong> Selamat Datang di Website Pendaftaran Islamic Apps Contest
     </div>
     <!-- Main component for a primary marketing message or call to action -->
     <div class="jumbotron">
-        <h2>Seminar Website Aplication for Beginner</h2>
+        <h2>Islamic Apps Contest</h2>
 		<p>Suatu aplikasi yang diakses menggunakan penjelajah web melalui suatu jaringan seperti Internet atau intranet, itulah Sebuah Website Application<br>
 		Ia juga merupakan suatu aplikasi perangkat lunak komputer yang dikodekan dalam bahasa yang didukung penjelajah web (seperti HTML, JavaScript, AJAX, Java, dll) dan bergantung pada penjelajah tersebut untuk menampilkan aplikasi.</p>
         <br>
@@ -74,7 +75,7 @@
     </div>
 <div class="panel panel-primary">
             <div class="panel-heading">
-              <h3 class="panel-title">Seminar ini di laksanakan pada:</h3>
+              <h3 class="panel-title">ini di laksanakan pada:</h3>
             </div>
             <div class="panel-body">
               Waktu: Sabtu, 12 Desember 2015<br>
@@ -106,7 +107,7 @@
               <tr>
                 <td>2</td>
                 <td>07.31 - 07.45</td>
-                <td>Pembukaan Seminar Website Aplication for Beginner</td>
+                <td>Pembukaan Islamic Apps Contest</td>
                 <td>Oleh Dekan Fakultas Ilmu Komputer</td>
               </tr>
               <tr>

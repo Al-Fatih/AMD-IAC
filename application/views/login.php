@@ -49,7 +49,8 @@
                 <li><a href="<?php echo base_url() ?>">Home</a></li>
                 <li><a href="<?php echo base_url() ?>index.php/seminar/testimoni">Testimoni</a></li>
                 <li><a href="<?php echo base_url() ?>index.php/seminar/about">About</a></li>
-                <li class="active"><a href="<?php echo base_url() ?>index.php/seminar/daftar">Daftar</a></li>
+                <li><a href="<?php echo base_url() ?>index.php/seminar/daftar">Daftar</a></li>
+                <li class="active"><a href="<?php echo base_url() ?>index.php/seminar/masuk">Login</a></li>
             </ul>
         </div>
         <!--/.nav-collapse -->
@@ -57,6 +58,10 @@
 </nav>
 
 <div class="container">
+        <!-- Main component for a primary marketing message or call to action -->
+
+        <div class="col-sm-5">
+            
     <?php if(!isset($notif)){
         $notif = "alert alert-info";
     }
@@ -68,35 +73,23 @@
             echo "Silakan mengisi form dibawah jika anda belum mendaftar";
         }?>
     </div>
-    <div class="jumbotron">
-        <!-- Main component for a primary marketing message or call to action -->
+    <div class="form-signin">
+        <?php
+        echo form_open('seminar/login');
+        ?>
 
-        <div class="col-sm-5">
-            <div class="form-signin">
-            <?php
-            echo form_open('seminar/register');
-            ?>
-                <h2>DAFTAR PESERTA</h2>
+            <p><input type="text" placeholder="Username" name="username" class="form-control" required/></p>
 
-                <p><input type="text" class="form-control" placeholder="Nama Tim" name="namalengkap" required></p>
-
-                <p><input type="email" class="form-control" placeholder="Email Ketua Tim" name="email" required/></p>
-                <p><input type="text" class="form-control" placeholder="Password" name="password" required></p>
-
-                <p><input type="text" class="form-control" placeholder="No. HP Ketua Tim" name="nomor" required></p>
-
-                <p><input type="text" class="form-control" placeholder="Perguruan Tinggi" name="ptn" required></p>
-                <button class="btn btn-lg btn-primary btn-block" type="submit" name="register">Daftar</button>
-            <?php
-            echo form_close();
-            ?></div>
-        </div>
-        <br><br><br>
-
-        <div class="col-md-3">
-            <img src="<?php echo base_url() ?>/images/logo.png" width="600">
-        </div>
-        <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+            <p><input type="password" placeholder="Password" name="password" class="form-control" required/></p>
+            <button class="btn btn-lg btn-primary btn-block" type="submit">Sign in</button>
+        <div class="notif">
+        <?php
+        echo form_close();
+        if(isset($info)){
+            echo $info;
+        }
+        ?></div>
+    </div>
     </div>
 </div>
 <!-- /container -->

@@ -9,7 +9,7 @@
     <meta name="author" content="">
     <link rel="icon" href="<?php echo base_url()?>favicon.ico">
 
-    <title>Official Seminar Website Aplication for Beginner</title>
+    <title>Islamic Apps Contest</title>
 
     <!-- Bootstrap core CSS -->
     <link href="<?php echo base_url()?>css/bootstrap.min.css" rel="stylesheet">
@@ -42,7 +42,7 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href="<?php echo base_url()?>">Website Aplication for Beginner</a>
+            <a class="navbar-brand" href="<?php echo base_url()?>">Islamic Apps Contest</a>
         </div>
         <div id="navbar" class="navbar-collapse collapse">
             <ul class="nav navbar-nav">
@@ -78,7 +78,7 @@
         </div>
         <div class="col-md-9">
           <h2 class="featurette-heading">Daneswara Jauhari</h2>
-          <p class="lead">Seminar website ini recomended untuk dihadiri karena materi yang akan dijelaskan sangat penting</p>
+          <p class="lead">website ini recomended untuk dihadiri karena materi yang akan dijelaskan sangat penting</p>
         </div>
       </div>
 

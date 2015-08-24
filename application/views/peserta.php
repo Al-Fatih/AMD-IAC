@@ -9,7 +9,7 @@
     <meta name="author" content="">
     <link rel="icon" href="<?php echo base_url()?>favicon.ico">
 
-    <title>Official Seminar Website Aplication for Beginner</title>
+    <title>Islamic Apps Contest</title>
 
     <!-- Bootstrap core CSS -->
     <link href="<?php echo base_url()?>css/bootstrap.min.css" rel="stylesheet">
@@ -43,7 +43,7 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href="<?php echo base_url()?>index.php/seminar/halamanadmin">Website Aplication for Beginner</a>
+            <a class="navbar-brand" href="<?php echo base_url()?>index.php/seminar/halamanadmin">Islamic Apps Contest</a>
         </div>
         <div id="navbar" class="navbar-collapse collapse">
             <ul class="nav navbar-nav">

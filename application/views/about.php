@@ -10,7 +10,7 @@
     <link rel="icon" href="<?php echo base_url()?>favicon.ico">
     <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Open+Sans:400italic,700italic,400,700">
 
-    <title>Official Seminar Website Aplication for Beginner</title>
+    <title>Islamic Apps Contest</title>
 
     <!-- Bootstrap core CSS -->
     <link href="<?php echo base_url()?>css/bootstrap.min.css" rel="stylesheet">
@@ -46,7 +46,7 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href="<?php echo base_url()?>">Website Aplication for Beginner</a>
+            <a class="navbar-brand" href="<?php echo base_url()?>">Islamic Apps Contest</a>
         </div>
         <div id="navbar" class="navbar-collapse collapse">
             <ul class="nav navbar-nav">
@@ -63,7 +63,7 @@
 <div class="container">
     <!-- Main component for a primary marketing message or call to action -->
     <div class="jumbotron">
-        <h2>Seminar Website Aplication for Beginner</h2><br>
+        <h2>Seminar Islamic Apps Contest</h2><br>
         <img src="<?php echo base_url()?>/images/logo.png"><br><br>
 		<p>Aplikasi registrasi ini mendukung kegiatan event secara maksimal untuk mempermudah pengaksesan informasi dan mengefisiensikan waktu pada saat calon peserta seminar akan mendaftarkan diri. Pengolahan data secara modern mutlak diperlukan untuk memenuhi kebutuhan akan pengolahan data yang lebih baik dan kemudahan pengaksesan data yang lebih cepat. Hal ini sangat menguntungkan karena dapat mengurangi data rangkap dan memudahkan dalam pencarian data. 
 		</p>

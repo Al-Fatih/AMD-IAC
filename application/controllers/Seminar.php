@@ -1,7 +1,7 @@
 <?php
 defined('BASEPATH') OR exit('No direct script access allowed');
 
-class seminar extends CI_Controller {
+class Seminar extends CI_Controller {
 	public function index()
 	{
 		$this->load->view('index');
@@ -13,6 +13,10 @@ class seminar extends CI_Controller {
 	public function daftar(){
 		$this->load->view('daftar');
 	}
+    
+    public function masuk(){
+        $this->load->view('login');
+    }
 
     public function register(){
         $email = $this->input->post('email');
@@ -23,7 +27,7 @@ class seminar extends CI_Controller {
         } else {
             $this->daftar_model->tambah();
             $data['notif'] = "alert alert-success";
-            $data['info'] = "Terima kasih telah mendaftar, anda telah terdaftar dalam Seminar ini";
+            $data['info'] = "Terima kasih telah mendaftar, anda telah terdaftar dalam ini";
         }
         $this->load->view('daftar', $data);
     }
